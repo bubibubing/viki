@@ -1,0 +1,29 @@
+<div class="nav">
+  <div class="other-content">other content</div>
+  <div class ="search-blk">
+    <div style="background-color: white; display: flex;width: 230px;">
+      <div style = "position: relative;">
+        <input class="search-input" type="text" #searchInput [(ngModel)] = "searchText" (ngModelChange) = "inputChange(searchText)">
+        <div [hidden]="searchText.length==0" class="dropdown-content">
+
+          <ng-container *ngIf="searchResults.length >0; else noResult">
+            <div class="search-content" *ngFor="let result of searchResults" (click) = "redirect(result)">
+              <!-- <div style="background-image: {{result.img}};"></div> -->
+              <div class="result-image" style="background-image: url({{result.image}});background-size: 100% 100%;"></div>
+              <div class="result-content">
+                <div>
+                  {{result.title}}
+                </div>
+              </div>
+            </div>
+          </ng-container>
+          <ng-template #noResult>
+            no result
+          </ng-template>
+        </div>
+      </div>
+      <div [hidden]="searchText.length==0" class="close-btn" (click)="resetSearchText()">&times;</div>
+    </div>
+    <div class="search-btn">search button</div>
+  </div>
+</div>
