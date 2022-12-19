@@ -1,7 +1,9 @@
 # Viki
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
-## main code to achieve the functions is in viki - Copy/src/app
+## main code 
+to achieve the functions is in viki - Copy/src/app 
+In order to run the whole project, need to setup angular environment on local
 
 ## Development server
 
