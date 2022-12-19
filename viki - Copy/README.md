@@ -1,7 +1,7 @@
 # Viki
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
-## main code 
+## Read Me
 Hi, thanks for your time to check on my code and thank you for giving me this oppotunity to make amends.
 
 The code is using Angular Framework, as currently I'm more familiar with Angular. 
