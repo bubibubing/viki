@@ -3,7 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 ## main code 
 Hi, thanks for your time to check on my code and thank you for giving me this oppotunity to make amends.
+
 The code is using Angular Framework, as currently I'm more familiar with Angular. 
+
 I'm also very open to learn react if I have the oppotunity to join viki. In addition, appreciate a lot for your guidance on React during the interview process.
 
 Code directory is viki - Copy/src/app
